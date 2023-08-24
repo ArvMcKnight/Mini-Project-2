@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Atlethic Fitness</title>
+    <link rel="stylesheet" href="css/user-profile.css">
+    <script src="https://kit.fontawesome.com/a845dc0b0f.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="images/logo1.jpg"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/f1e4557b82.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <nav class="nav">
+        <a href="index.html" class="a-1">
+          <img src="images/new-logo.png" alt="">
+        </a>
+        <ul class="nav-list">
+          <li class="nav-item">
+              <a href="zz-index.html">Home</a>
+          </li>
+          <li class="nav-item">
+              <a href="zz-branches.html">Branches</a>
+          </li>
+          <li class="nav-item">
+            <a href="zz-facility.html">Facilities</a>
+          </li>
+          <li class="nav-item" id="user-menu">
+            <a href="user-info.html">
+                <i class="fa-solid fa-user" style="color: #f5f5f5;"></i>
+            </a>
+            <div class="sub-menu">
+                <ul>
+                    <li><a href="benefits.html">Benefits</a></li>
+                    <li><a href="index.html">Log Out</a></li>
+                </ul>
+            </div>
+        </li>
+        </ul>        
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+          <span class="material-symbols-outlined" >menu</span>
+        </button>        
+    </nav>
+<div class="offcanvas offcanvas-end w-75" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasRightLabel">MENU</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div class="content">
+        <ul class="nav-list">
+        <li class="nav-item">
+            <a href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a href="branches.html">Branches</a>
+        </li>
+        <li class="nav-item">
+            <a href="facility.html">Facility</a>
+        </li>
+        <li class="nav-item">
+          <a href="benefits.html">Benefits</a>
+        </li>
+        <li class="nav-item">
+          <a href="index.html">Log out</a>
+        </li> 
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="header">
+    <h1>6 DAY WORKOUT SPLIT</h1><br>
+    <p>Monday: Push Focus - Chest and Triceps</p>
+    <p>Tuesday: Pull Focus - Back and Biceps</p>        
+    <p>Wednesday: Leg Day - Hamstrings Focus</p>       
+    <p>Thursday: Shoulders and Abs</p>      
+    <p>Friday: Push/Pull Combos</p>       
+    <p>Saturday: Leg Day - Quad Focus</p>      
+    <p>Sunday: Rest day</p>  
+</div> 
+<span class="float"> 
+    <div class="w-50 dayOne">
+            <h3>DAY 1: PUSH - CHEST AND TRICEPS</h3>
+            <h6 class="description">Looking to build a strong and defined upper body? A push-focused workout targeting your chest and triceps can help you achieve just that! By incorporating a combination of compound movements and isolation exercises, you can effectively train these muscle groups and improve their strength and size. Let's dive in!</h6>
+    </div>
+        <div id="carouselExampleAutoplaying" class="carousel-slide"             data-bs-ride="carousel">
+            <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/images/Barbell Bench Press.jpg" class="d-block w-100" alt="...">
+          </div>    
+          <div class="carousel-item">
+            <img src="images/Dumbbell Flyes.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Incline Dumbbell Press.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/RIP Trainer Chest Press.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Tricep Dips.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/TRX Suspended Push-Ups.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/TRX Tricep Extension.jpg" class="d-block w-100" alt="...">
+          </div>
+            </div>
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span><br>
+          <span class="instruction">
+            <table style="width:110%">
+                <tr>
+                  <th>Workout</th>
+                  <th>Reps</th>
+                  <th>Sets</th>
+                  <th>Rest time</th>
+                </tr>
+                <tr>
+                    <td>Barbell Bench Press</td>
+                    <td>8-12</td>
+                    <td>3</td>
+                    <td>2 minutes</td>
+                </tr>
+                <tr>
+                    <td>Dumbbell Flyes</td>
+                    <td>10-15</td>
+                    <td>3-4</td>
+                    <td>90 seconds</td>
+                </tr>
+                <tr>
+                    <td>Incline Dumbbell Press</td>
+                    <td>8-12</td>
+                    <td>4-5</td>
+                    <td>2 minutes</td>
+                </tr>
+                <tr>
+                    <td>TRX Suspended Push-Ups</td>
+                    <td>10-15</td>
+                    <td>3</td>
+                    <td>60 seconds</td>
+                </tr>
+                <tr>
+                    <td>RIP Trainer Chest Press</td>
+                    <td>10-15</td>
+                    <td>3</td>
+                    <td>60 seconds</td>
+                </tr>
+                <tr>
+                    <td>Tricep Dips</td>
+                    <td>8-12</td>
+                    <td>4-5</td>
+                    <td>2 minutes</td>
+                </tr>
+                <tr>
+                    <td>TRX Tricep Extension</td>
+                    <td>8-12</td>
+                    <td>3</td>
+                    <td>60 seconds</td>
+                </tr>
+
+              </table>
+        </span>
+        </div>
+        
+      </div>
+      
+</span>
+<span class="float"> 
+    <div class="w-50 dayOne">
+            <h3>DAY 2: PULL-BACK AND BICEPS</h3>
+            <h6 class="description">Build a strong back and biceps with this pull-focused workout! Not only will you see improvements in strength and muscle definition, but you'll also improve your posture and decrease your risk of injury. Grab some weights, a suspension trainer and a TRX rip trainer, and let's get after it!</h6>
+    </div>
+        <div id="carouselExampleAutoplaying" class="carousel-slide"data-bs-ride="carousel">
+            <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/TRX Low Rows.jpg" class="d-block w-100" alt="...">
+          </div>    
+          <div class="carousel-item">
+            <img src="images/Bent-Over Barbell Rows.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/pullups.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Single-Arm Dumbbell Rows.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/TRX Rip Trainer High Row.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Barbell Curls.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Hammer Curl.png" class="d-block w-100" alt="...">
+          </div>
+            </div>
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span><br>
+          <span class="instruction">
+            <table style="width:110%">
+                <tr>
+                  <th>Workout</th>
+                  <th>Reps</th>
+                  <th>Sets</th>
+                  <th>Rest time</th>
+                </tr>
+                <tr>
+                    <td>TRX Low Rows</td>
+                    <td>10-15</td>
+                    <td>3</td>
+                    <td>45 seconds</td>
+                </tr>
+                <tr>
+                    <td>Bent-Over Barbell Rows</td>
+                    <td>8-12</td>
+                    <td>4</td>
+                    <td>60-90 seconds</td>
+                </tr>
+                <tr>
+                    <td>Pull-Ups</td>
+                    <td>6-10</td>
+                    <td>3</td>
+                    <td>2 minutes</td>
+                </tr>
+                <tr>
+                    <td>Single-Arm Dumbbell Rows</td>
+                    <td>10-12/arm</td>
+                    <td>3</td>
+                    <td>45 seconds</td>
+                </tr>
+                <tr>
+                    <td>TRX Rip Trainer High Row</td>
+                    <td>12-15</td>
+                    <td>3</td>
+                    <td>45 seconds</td>
+                </tr>
+                <tr>
+                    <td>Barbell Curls</td>
+                    <td>8-12</td>
+                    <td>3</td>
+                    <td>60 seconds</td>
+                </tr>
+                <tr>
+                    <td>Hammer Curl</td>
+                    <td>8-12</td>
+                    <td>3</td>
+                    <td>60 seconds</td>
+                </tr>
+
+              </table>
+        </span>
+        </div>
+        
+      </div>
+      
+</span>
+<span class="float"> 
+    <div class="w-50 dayOne">
+            <h3>DAY 3: LEG DAY - HAMSTRINGS</h3>
+            <h6 class="description">It's time to switch the focus from your upper body to the lower body with this hamstring-focused workout! Strong and flexible hamstrings are essential for overall lower body strength and athletic performance. So let's dive in and get those hamstrings firing</h6>
+            <div id="carouselExampleAutoplaying" class="carousel-slide"data-bs-ride="carousel">
+              <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/Romanian Deadlifts.jpg" class="d-block w-100" alt="...">
+            </div>    
+            <div class="carousel-item">
+              <img src="images/Single-Leg Glute Bridges.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/TRX Hamstring Curls.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/Nordic Hamstring Curls.webp" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/Seated Leg Curl Machine.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/Barbell Hip Thrusts.jpg" class="d-block w-100" alt="...">
+            </div>
+              </div>
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span><br>
+    
+            <table style="width:110%">
+                <tr>
+                  <th>Workout</th>
+                  <th>Reps</th>
+                  <th>Sets</th>
+                  <th>Rest time</th>
+                </tr>
+                <tr>
+                    <td>Romanian Deadlifts</td>
+                    <td>8-12</td>
+                    <td>4</td>
+                    <td>60-90 seconds</td>
+                </tr>
+                <tr>
+                    <td>Single-Leg Glute Bridges</td>
+                    <td>10-12/leg</td>
+                    <td>3</td>
+                    <td>45-60 seconds</td>
+                </tr>
+                <tr>
+                    <td>TRX Hamstring Curls</td>
+                    <td>12-15</td>
+                    <td>3</td>
+                    <td>45-60 seconds</td>
+                </tr>
+                <tr>
+                    <td>Nordic Hamstring Curls</td>
+                    <td>6-8</td>
+                    <td>3</td>
+                    <td>60-90 seconds</td>
+                </tr>
+                <tr>
+                    <td>Seated Leg Curl Machine</td>
+                    <td>8-12/leg</td>
+                    <td>3</td>
+                    <td>45-60 seconds</td>
+                </tr>
+                <tr>
+                    <td>Barbell Hip Thrusts</td>
+                    <td>8-12</td>
+                    <td>3</td>
+                    <td>2 minutes</td>
+                </tr>  
+              </table>
+              
+        </span>
+        </div>
+        
+      </div>
+      
+</span>
+<span class="float"> 
+    <div class="w-50 dayOne">
+            <h3>DAY 4: SHOULDERS AND ABS</h3>
+            <h6 class="description">Improve your posture, stability, and overall upper body strength with this shoulder and core-focused session. Whether you're an athlete looking to enhance performance or a fitness enthusiast seeking a challenging workout, this routine will help you achieve your goals. Get ready to engage your core and sculpt your shoulders with the following exercises</h6>
+    </div>
+        <div id="carouselExampleAutoplaying" class="carousel-slide"data-bs-ride="carousel">
+            <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/Shoulder Press.webp" class="d-block w-100" alt="...">
+          </div>    
+          <div class="carousel-item">
+            <img src="images/Plank.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/TRX Pike.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Arnold Press.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/TRX Side Plank.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/RIP Trainer Plank.jpg" class="d-block w-100" alt="...">
+          </div>
+            </div>
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span><br>
+          <span class="instruction">
+            <table style="width:110%">
+                <tr>
+                  <th>Workout</th>
+                  <th>Reps</th>
+                  <th>Sets</th>
+                  <th>Rest time</th>
+                </tr>
+                <tr>
+                    <td>Shoulder Press</td>
+                    <td>10-12</td>
+                    <td>3</td>
+                    <td>60 seconds</td>
+                </tr>
+                <tr>
+                    <td>Plank</td>
+                    <td>Hold for 30-60 seconds</td>
+                    <td>3</td>
+                    <td>30 seconds</td>
+                </tr>
+                <tr>
+                    <td>TRX Pike</td>
+                    <td>10-12</td>
+                    <td>3</td>
+                    <td>30 seconds</td>
+                </tr>
+                <tr>
+                    <td>Arnold Press</td>
+                    <td>8-10</td>
+                    <td>3</td>
+                    <td>60 seconds</td>
+                </tr>
+                <tr>
+                    <td>TRX Side Plank</td>
+                    <td>20-30s hold/side</td>
+                    <td>3</td>
+                    <td>45 seconds</td>
+                </tr>
+                <tr>
+                    <td>RIP Trainer Plank</td>
+                    <td>30-40s hold</td>
+                    <td>3</td>
+                    <td>45 seconds</td>
+                </tr>
+              </table>
+        </span>
+        </div>
+        
+      </div>
+      
+</span>
+<span class="float"> 
+    <div class="w-50 dayOne">
+            <h3>DAY 5: PUSH PULL SUPERSETS</h3>
+            <h6 class="description">Push-pull supersets are an excellent way to target multiple muscle groups efficiently while keeping your workout dynamic and challenging. By combining pushing and pulling movements, you engage your chest, shoulders, back, and arms in a balanced and effective manner. Whether you're a beginner or an experienced fitness enthusiast, these exercises can help you achieve your upper body goals.</h6>
+    </div>
+        <div id="carouselExampleAutoplaying" class="carousel-slide"data-bs-ride="carousel">
+            <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/TRX Chest Press & TRX Mid Row.jpg" class="d-block w-100" alt="...">
+          </div>    
+          <div class="carousel-item">
+            <img src="images/Push-ups & Seated Cable Rows.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Close-Grip Bench Press & Lat Pulldowns.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Dumbbell Overhead Tricep Extensions & Barbell Bicep Curls.webp" class="d-block w-100" alt="...">
+          </div>  
+            </div>
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span><br>
+          <span class="instruction">
+            <table style="width:110%">
+                <tr>
+                  <th>Workout</th>
+                  <th>Reps</th>
+                  <th>Sets</th>
+                  <th>Rest time</th>
+                </tr>
+                <tr>
+                    <td>TRX Chest Press & TRX Mid Row</td>
+                    <td>12-15</td>
+                    <td>3</td>
+                    <td>45 seconds between sets</td>
+                </tr>
+                <tr>
+                    <td>Push-ups & Seated Cable Rows</td>
+                    <td>10-12</td>
+                    <td>3</td>
+                    <td>60s seconds between sets</td>
+                </tr>
+                <tr>
+                    <td>Close-Grip Bench Press & Lat Pulldowns</td>
+                    <td>10-12</td>
+                    <td>3</td>
+                    <td>60s seconds between sets</td>
+                </tr>
+                <tr>
+                    <td>Dumbbell Overhead Tricep Extensions & Barbell Bicep Curls</td>
+                    <td>12-15</td>
+                    <td>3</td>
+                    <td>45 seconds between sets</td>
+                </tr>
+              </table>
+        </span>
+        </div>
+        
+      </div>
+      
+</span>
+<span class="float"> 
+    <div class="w-50 dayOne">
+            <h3>DAY 6: LEG DAY - QUAD FOCUS</h3>
+            <h6 class="description">Looking to sculpt strong and defined quads? Look no further than this leg-day quad-focused workout. By targeting your quadriceps, you can build lower body strength, improve stability, and enhance athletic performance.
+
+                For this leg day, you'll mostly use barbells, dumbbells, and some leg workout machines. However, building a lower body requires flexibility and muscle coordination. This is why we'll include some bodyweight exercises using the TRX suspension trainer.</h6>
+    </div>
+        <div id="carouselExampleAutoplaying" class="carousel-slide"data-bs-ride="carousel">
+            <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/Barbell Back Squats.jpg" class="d-block w-100" alt="...">
+          </div>    
+          <div class="carousel-item">
+            <img src="images/Dumbbell Lunges.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Leg Press.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Bulgarian Split Squats.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/TRX Pistol Squats.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Calf Raises.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/TRX Rip Trainer Knee Strike.webp" class="d-block w-100" alt="...">
+          </div>
+            </div>
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span><br>
+          <span class="instruction">
+            <table style="width:110%">
+                <tr>
+                  <th>Workout</th>
+                  <th>Reps</th>
+                  <th>Sets</th>
+                  <th>Rest time</th>
+                </tr>
+                <tr>
+                    <td>Barbell Back Squats</td>
+                    <td>8-12</td>
+                    <td>4</td>
+                    <td>2 minutes</td>
+                </tr>
+                <tr>
+                    <td>Dumbbell Lunges</td>
+                    <td>10-12</td>
+                    <td>3/td>
+                    <td>2 minutes</td>
+                </tr>
+                <tr>
+                    <td>Leg Press</td>
+                    <td>12-15</td>
+                    <td>3</td>
+                    <td>1-2 minutes</td>
+                </tr>
+                <tr>
+                    <td>Bulgarian Split Squats</td>
+                    <td>10-12/leg</td>
+                    <td>3</td>
+                    <td>60 seconds</td>
+                </tr>
+                <tr>
+                    <td>TRX Pistol Squats</td>
+                    <td>8-10/leg</td>
+                    <td>3</td>
+                    <td>1-2 minutes</td>
+                </tr>
+                <tr>
+                    <td>Calf Raises (Machine or Standing)</td>
+                    <td>15-20</td>
+                    <td>3</td>
+                    <td>1-2 minutes</td>
+                </tr>
+                <tr>
+                    <td>TRX Rip Trainer Knee Strike</td>
+                    <td>12-15/leg</td>
+                    <td>3</td>
+                    <td>60 seconds</td>
+                </tr>
+
+              </table>
+        </span>
+        </div>
+        
+      </div>
+      
+</span>
+    <footer>
+        <div class="footer-div">
+            <h3>COMPANY</h3>
+            <p>CAREERS</p>
+            <p>PRIVACY POLICY</p>
+            <p>DMCA POLICY</p>
+            <p>TERMS AND CONDITION</p>
+        </div>
+        <div class="footer-div">
+            <h3>GYMS</h3>
+            <p>BRANCHES</p>
+            <p>VIEW ALL GYM</p>
+        </div>
+        <div class="footer-div">
+            <h3>MEMBERS</h3>
+            <p>FAQs</p>
+            <p>CONTACT US</p>
+        </div>
+        <div class="div4">
+            <h3>SOCIALS</h3>
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-tiktok"></i>
+                <i class="fa-brands fa-discord"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+            <div>
+                <p>2023 Asia Fitness Limited</p>
+                <p>Pascual Commercial Building, 119 Luberon St</p>
+                <p>Bulacan, Philippines</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

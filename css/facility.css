@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Work+Sans&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(#191919, #2B2B2B);
+}
+.nav {
+    display: flex;
+    height: 100px;
+    background-color: #222727;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    padding: 0 20px;
+}
+.nav-list {
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font: 700;
+    font-size: 14px;
+}
+.nav-type {
+    padding: 0 0 0 10px;
+    font-weight: 900;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.nav-item {
+    align-items: center;
+    padding: 0 10px 0 0;
+}
+.nav-item a {
+    text-decoration: none;
+    color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 0;
+    margin: 0 16px;
+    text-decoration: none;
+    letter-spacing: 2px;
+  }
+  .nav ul li .one {
+    border-bottom: 2px solid #fff;
+    width: max-content;
+    padding-bottom: 12px;
+  }
+  .nav button {
+    display: none;
+  }
+  .a-1 {
+    font-size: 30px;
+    text-decoration: none;
+
+}
+
+  span {
+    color: #fff;
+    font-size: 30px !important;
+    margin: auto 0;
+  }
+.section1 .box {
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto 20px;
+    border: 1px solid #fff;
+    padding: 20px;
+    display: flex;
+    column-gap: 20px;
+    border-radius: 20px;
+    font-family: 'Work Sans',sans-serif;
+}
+.section1 .box .image {
+    width: 350px;
+    height: 320px;
+    flex-shrink: 0;
+}
+.section1 .box .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.section1 .box .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    row-gap: 40px;
+}
+.h1-b {
+    font-family: 'Work sans',sans-serif;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+.section2 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    font-family: 'Work sans',sans-serif;
+    padding: 15px 0;
+    border-bottom: 1px solid gray;
+}
+
+.section2 .box  div  h3 {
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.section2 .box  div  p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    border-top: 1px solid black;
+}
+footer .footer-div p {
+    margin-top: 10px;
+    transition: all .3s;
+}
+footer .footer-div p:hover {
+    transform: scale(1.1);
+    background-color: #222727;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: #fff;
+}
+footer .div4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+footer .div4 .icons {
+    display: flex;
+    column-gap: 10px;
+}
+footer .div4 .icons i {
+    font-size: 30px;
+}
+footer .div4 div {
+    text-align: end;
+}
+
+@media only screen and (max-width: 1005px) {
+    .nav .nav-list {
+        display: none;
+    }
+    .nav button {
+        display: block;
+    }
+    .offcanvas .content {
+        height: 100% !important;
+    }
+    .offcanvas .content  ul {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        height: 100%;
+    }
+    .offcanvas .content  ul li a {
+        color: black;
+    }
+    footer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    footer > div {
+        width: 100%;
+        text-align: center;
+    }
+    footer .div4 {
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    .section1 .box {
+        flex-direction: column;
+    }
+    .section1 .box .image {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .section2 {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    .section2 > div {
+        width: 100%;
+        padding: 10px;
+    }
+}

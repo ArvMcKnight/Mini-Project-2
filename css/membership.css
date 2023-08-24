@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Work+Sans&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(https://images.alphacoders.com/692/692039.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+section {
+    min-height: 600px;
+    height: auto;
+    max-height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* display:  grid; */
+    place-items: center;
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* background-position-y: -220px; */
+    /* background-color: #222727; */
+}
+
+section div {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+section h1 {
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(245, 245, 245, 0.707);
+}
+section div  p {
+    background-color: #222727e7;
+    font-size: 20px;
+    color: white;
+    height: 60px;
+    place-items: center;
+    display: grid;
+    padding: 10px;
+    margin-bottom: 0px;
+    letter-spacing: 1px;
+    border-radius: 4px;
+}
+section div select {
+    height: 60px;
+    padding: 0 10px;
+    letter-spacing: 1px;
+    border: 1px solid blue;
+}
+section div {
+    flex-wrap: wrap;
+}
+.plans {
+    margin-top: 50px;
+}
+.plansPayment {
+    flex-direction: column;
+    margin: 0 20px;
+}
+.plansPayment button {
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 7px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.plansPayment button a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.promos {
+    /* background-color: #222727; */
+    /* display: flex; */
+    flex-wrap: wrap;
+    color: whitesmoke;
+    justify-content: center;
+    text-align: center;
+}
+.promos {
+    /* margin-top: 20px; */
+    padding: 10px 15%;
+    /* background-color: black; */
+}
+.promoBg {
+    display: flex;
+    flex-direction: column;
+}
+.promoBg p {
+    background-color: black;
+    padding: 20px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+}
+.promoBg h6 img {
+    margin-top: 20px;
+    width: 100%;
+}

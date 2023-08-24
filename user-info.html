@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Atlethic Fitness</title>
+    <link rel="stylesheet" href="css/user-info.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/a845dc0b0f.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="images/logo1.jpg"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/f1e4557b82.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <nav class="nav">x
+        <img class="logo" src="images/new-logo.png" alt="" >
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="branches.html">Branches</a>
+            </li>
+            <li class="nav-item">
+                <a href="facility.html">Facilities</a>
+            </li>
+            <li class="nav-item" id="user-menu">
+                <a href="#">
+                    <i class="fa-solid fa-user" style="color: #f5f5f5;"></i>
+                </a>
+                <div class="sub-menu">
+                    <ul>
+                        <li><a href="user-info.html">Profile</a></li>
+                        <li><a href="benefits.html">Benefits</a></li>
+                        <li><a href="index.html">Log out</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>        
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+            <span class="material-symbols-outlined" >menu</span>
+        </button>        
+    </nav>
+<div class="offcanvas offcanvas-end w-75" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasRightLabel">MENU</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div class="content">
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="branches.html">Branches</a>
+            </li>
+            <li class="nav-item">
+                <a href="facility.html">Facility</a>
+            </li>
+            <li class="nav-item">
+                <a href="sign-up.html">Sign-Up</a>
+            </li>
+          
+        </ul>
+       
+    </div>
+  </div>
+</div>
+<!-- header -->
+<div class="boxes">
+    <div class="box1">
+        <div class="insideBox1">
+            <p class="titlebox">Profile</p>
+            <table>
+                <tr>
+                    <th>First Name:</th>
+                    <td id="firstName"></td>
+                </tr>
+                <tr>
+                    <th>Last Name:</th>
+                    <td id="lastName"></td>
+                </tr>
+                <tr>
+                    <th>Email:</th>
+                    <td id="email"></td>
+                </tr>
+                <tr>
+                    <th>Gender:</th>
+                    <td id="gender"></td>
+                </tr>
+                <tr>
+                    <th>Birthdate:</th>
+                    <td id="dob"></td>
+                </tr>
+                <tr>
+                    <th>Password:</th>
+                    <td id="password">********</td>
+                </tr>
+                <tr id="passwordChangeRow" style="display: none;">
+                    <th>New Password:</th>
+                    <td><input type="password" id="newPassword"></td>
+                </tr>
+                <tr>
+                    <th>Branch</th>
+                    <td id="branch"></td>
+                </tr>
+            </table>
+            <button id="changePasswordButton" type="button">Change Password</button>        
+        </div>
+    </div>
+    <div class="box2">
+        <div class="insideBox2">
+            <p class="titlebox">Subscription</p>
+            <table>
+                <tr>
+                    <th>Plan:</th>
+                    <td>1999</td>
+                </tr>
+                <tr>
+                    <th>Startdate:</th>
+                    <td>08/24/2023</td>
+                </tr>
+            </table>
+            <button type="button">Renew my plan</button><br>
+            <p class="workoutbox">Work out plan</p>
+            <table>
+                <tr>
+                    <th>Work out:</th>
+                    <td>6 day work out split</td>
+                </tr>
+            </table>
+            <button type="button"><a href="user-profile.html">Weekly work out</a></button>
+        </div>
+    </div>
+    <div class="box3">
+        <div class="insideBox3">
+            
+        </div>
+    </div>
+</div>
+    <footer>
+        <div class="footer-div">
+            <h3>COMPANY</h3>
+            <p>CAREERS</p>
+            <p>PRIVACY POLICY</p>
+            <p>DMCA POLICY</p>
+            <p>TERMS AND CONDITION</p>
+        </div>
+        <div class="footer-div">
+            <h3>GYMS</h3>
+            <p>BRANCHES</p>
+            <p>VIEW ALL GYM</p>
+        </div>
+        <div class="footer-div">
+            <h3>MEMBERS</h3>
+            <p>FAQs</p>
+            <p>CONTACT US</p>
+        </div>
+        <div class="div4">
+            <h3>SOCIALS</h3>
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-tiktok"></i>
+                <i class="fa-brands fa-discord"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+            <div>
+                <p>2023 Asia Fitness Limited</p>
+                <p>Pascual Commercial Building, 119 Luberon St</p>
+                <p>Bulacan, Philippines</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script defer src="script/user-info.js"></script>
+</body>
+</html>

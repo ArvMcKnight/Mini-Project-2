@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Work+Sans&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    height: 100px;
+    padding: 0 20px;
+    background-color: #222727;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 4;
+
+}
+.nav-list {
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font: 700;
+    font-size: 14px;
+}
+.nav-type {
+    padding: 0 0 0 10px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.a-1 {
+    font-size: 30px;
+    text-decoration: none;
+
+}
+.nav-item {
+    align-items: center;
+    padding: 0 10px 0 0;
+}
+.nav-item a {
+    text-decoration: none;
+    color: white;
+    padding: 14px 0;
+    margin: 0 16px;
+}
+.nav ul li .one {
+    border-bottom: 2px solid #fff;
+    width: max-content;
+    padding-bottom: 12px;
+  }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    letter-spacing: 2px;
+  }
+  .nav button {
+    display: none;
+  }
+  .nav button {
+    display: none;
+  }
+
+
+section {
+    min-height: 600px;
+    height: auto;
+    max-height: 800px;
+    display:  grid;
+    place-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -220px;
+    background-color: #222727;
+    background-image: url(../images/group.jpg);
+}
+section div {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+section div  h1 {
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #222727a6;
+}
+section div  p {
+    background-color: #fff;
+    font-size: 20px;
+    height: 60px;
+    place-items: center;
+    display: grid;
+    padding: 10px;
+    margin-bottom: 0px;
+    letter-spacing: 1px;
+    border-radius: 4px;
+}
+section div select {
+    height: 60px;
+    padding: 0 10px;
+    letter-spacing: 1px;
+    border: 1px solid blue;
+}
+section div {
+    flex-wrap: wrap;
+}
+
+  footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    border-top: 1px solid black;
+    margin-top: 20px;
+}
+footer .footer-div p {
+    margin-top: 10px;
+    transition: all .3s;
+}
+footer .footer-div p:hover {
+    transform: scale(1.1);
+    background-color: #222727;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: #fff;
+}
+footer .div4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+footer .div4 .icons {
+    display: flex;
+    column-gap: 10px;
+}
+footer .div4 .icons i {
+    font-size: 30px;
+}
+footer .div4 div {
+    text-align: end;
+}
+.location_ {
+    display: flex;
+}
+.location_ .wrapper {
+    width: 400px;
+}
+.location_ .wrapper p {
+    height: max-content;
+    margin-top: 10px;
+}
+.location_ iframe {
+    height: 400px;
+}
+@media only screen and (max-width: 1505px) {
+    section {
+        height: 80vh;
+        display:  grid;
+        place-items: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: 10px;
+    }
+
+}
+@media only screen and (max-width: 1005px) {
+    .nav .nav-list {
+        display: none;
+    }
+    .nav button {
+        display: block;
+    }
+    .offcanvas .content {
+        height: 100% !important;
+    }
+    .offcanvas .content  ul {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        height: 100%;
+    }
+    .offcanvas .content  ul li a {
+        color: black;
+    }
+    footer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    footer > div {
+        width: 100%;
+        text-align: center;
+    }
+    footer .div4 {
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 775px) {
+    section div  {
+        row-gap: 20px;
+        flex-direction: column;
+    }
+
+}
